@@ -492,5 +492,5 @@ public:
 	vector<string> filenames;
 	Mat features;		// 特徴量
 	Mat responses;	// クラス
-	
+
 };

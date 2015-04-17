@@ -8,11 +8,11 @@ int main(int argc, char *argv[]) {
   string trainDataFilename = "K=" + to_string(VISUAL_WORDS_COUNT) + "_test_data.xml";
   string classifierFilename = "K=" + to_string(VISUAL_WORDS_COUNT) + "_svm.xml";
 
-  /*createBOWCodebook(codebookFilename, "./Train", 50);
+  createBOWCodebook(codebookFilename, "./Train", 50);
   convertImageToBOW(codebookFilename, "./Train", 100, trainDataFilename);
   convertImageToBOW(codebookFilename, "./Test", 100, testDataFilename);
   trainClassifier(trainDataFilename, classifierFilename, "train_results.txt");
-  testClassifier(testDataFilename, classifierFilename, "test_results.txt");*/
+  testClassifier(testDataFilename, classifierFilename, "test_results.txt");
 
   Mat image;
   //image = imread(argv[1], 1);   // ドラッグ&ドロップ

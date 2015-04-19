@@ -3,10 +3,10 @@
 int main(int argc, char *argv[]) {
 
   // ファイル名設定
-  string codebookFilename = "K=" + to_string(VISUAL_WORDS_COUNT) + "_codebook.xml";
-  string testDataFilename = "K=" + to_string(VISUAL_WORDS_COUNT) + "_train_data.xml";
-  string trainDataFilename = "K=" + to_string(VISUAL_WORDS_COUNT) + "_test_data.xml";
-  string classifierFilename = "K=" + to_string(VISUAL_WORDS_COUNT) + "_svm.xml";
+  string codebookFilename = "codebook.xml";
+  string testDataFilename = "train_data.xml";
+  string trainDataFilename = "test_data.xml";
+  string classifierFilename = "svm.xml";
 
   createBOWCodebook(codebookFilename, "./Train", 50);
   convertImageToBOW(codebookFilename, "./Train", 100, trainDataFilename);

@@ -23,7 +23,8 @@ SIFTをRGB毎に抽出
 
 ## Requirement
 Visual Studio 2013 Community  
-`#include <filesystem>`による学習用画像の読み込みのためVS2012以上が必要
+学習用画像の読み込みのため`#include <filesystem>`  
+VS2012以上が必要  
 OpenCV 2.4.9  
 
 ## Usage

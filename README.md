@@ -1,9 +1,8 @@
-Name
+SIFT+BoF+SVMによる画像認識
 ====
 
-Overview
-
 ## Description
+---
 
 ## Demo
 

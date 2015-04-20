@@ -45,3 +45,14 @@ SIFT・BoF・SVMによる一般物体認識プログラムです。
 # 二値化＋輪郭検出で領域分割を行った後各領域を認識
   recognizeImage(codebookFilename, trainDataFilename, classifierFilename, image, false);
 ```
+
+* image_recog.h
+```cpp
+# 使用する特徴量、認識対象とするクラス数、BoFの次元を設定
+  const string FEATURE_DETECTOR_TYPE = "SIFT";      // SIFT, Dense, GridSIFT, SURF, DynamicSURF
+  const string DESCRIPTOR_EXTRACTOR_TYPE = "SIFT";  // SIFT, SURF
+  const bool USE_COLOR_FEATURE = true;              // BGR各成分から特徴抽出
+  const int CLASS_COUNT = 10;                       // クラス数
+  const int VISUAL_WORDS_COUNT = 2000;              // BOW特徴ベクトルの次元 (RGB:1成分あたり)
+```
+

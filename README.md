@@ -32,14 +32,17 @@ SIFT・BoF・SVMによる一般物体認識プログラムです。
 ## Usage
 
 * main.cpp
+学習・テスト画像のフォルダのパスを引数で指定する。
+指定した場所にクラス毎にフォルダを分けて画像を置く（フォルダ名=クラス名）
 ```cpp
-// 一般物体認識（画像分類）
+# 一般物体認識（画像分類）
   createBOWCodebook(codebookFilename, "./Train", 50);
   convertImageToBOW(codebookFilename, "./Train", 100, trainDataFilename);
   convertImageToBOW(codebookFilename, "./Test", 100, testDataFilename);
   trainClassifier(trainDataFilename, classifierFilename, "train_results.txt");
   testClassifier(testDataFilename, classifierFilename, "test_results.txt");
 ```
+画像を`image`で指定すると領域分割と認識を行う
 ```cpp
 # 二値化＋輪郭検出で領域分割を行った後各領域を認識
   recognizeImage(codebookFilename, trainDataFilename, classifierFilename, image, false);

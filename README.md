@@ -1,10 +1,11 @@
 SIFT+BoF+SVMによる画像認識
 ====
 
-### Description
+## Description
 ---
 
 ## Demo
+===
 
 ## VS. 
 

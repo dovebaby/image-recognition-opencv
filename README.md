@@ -18,14 +18,13 @@ SIFTをRGB毎に抽出
 |----|:----:|----|  
 |![B](/examples/frame_0_0_SIFT_B.png) |![G](/examples/frame_0_0_SIFT_G.png) |![R](/examples/frame_0_0_SIFT_R.png)|  
 
-実行例  
+認識例  
 ![EX](/examples/frame_1_result.png)
 
-
-
 ## Requirement
-OpenCV 2.4.9  
 Visual Studio 2013 Community  
+'#include <filesystem>'による学習用画像の読み込みのためVS2012以上が必要
+OpenCV 2.4.9  
 
 ## Usage
 main.cpp

@@ -46,7 +46,7 @@ SIFT・BoF・SVMによる一般物体認識プログラムです。
 ```
   
 * image_recog.h
-使用する特徴量、認識対象とするクラス数、BoFの次元を設定
+使用する特徴量、認識対象とするクラス数、BoFの次元を設定  
 ```cpp
   const string FEATURE_DETECTOR_TYPE = "SIFT";      // SIFT, Dense, GridSIFT, SURF, DynamicSURF
   const string DESCRIPTOR_EXTRACTOR_TYPE = "SIFT";  // SIFT, SURF

@@ -41,9 +41,7 @@ SIFT・BoF・SVMによる一般物体認識プログラムです。
   convertImageToBOW(codebookFilename, "./Test", 100, testDataFilename);
   trainClassifier(trainDataFilename, classifierFilename, "train_results.txt");
   testClassifier(testDataFilename, classifierFilename, "test_results.txt");
-```
-画像を`image`で指定すると領域分割と認識を行う  
-```cpp
+
 # 二値化＋輪郭検出で領域分割を行った後各領域を認識
   recognizeImage(codebookFilename, trainDataFilename, classifierFilename, image, false);
 ```

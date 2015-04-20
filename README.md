@@ -18,7 +18,7 @@ SIFTをRGB毎に抽出
 |----|:----:|----|  
 |![B](/examples/frame_0_0_SIFT_B.png) |![G](/examples/frame_0_0_SIFT_G.png) |![R](/examples/frame_0_0_SIFT_R.png)|  
 
-実行例
+実行例  
 ![EX](/examples/frame_1_result.png)
 
 

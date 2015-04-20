@@ -14,9 +14,7 @@ SIFT・BoF・SVMによる一般物体認識プログラムです。
 SIFTをRGB毎に抽出  
 |県名|県庁所在地|人口|
 |----|:----:|----:|
-|埼玉|さいたま|10|
-|青森|青森|5|
-|![B](/examples/frame_0_0_SIFT_B.png) |[!G](/examples/frame_0_0_SIFT_G.png) |![R](/examples/frame_0_0_SIFT_R.png)|
+|![B](/examples/frame_0_0_SIFT_B.png) |![G](/examples/frame_0_0_SIFT_G.png) |![R](/examples/frame_0_0_SIFT_R.png)|
 
 
 

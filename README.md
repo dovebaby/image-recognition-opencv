@@ -6,14 +6,14 @@ SIFT+BoF+SVMによる一般物体認識
 SIFT・BoF・SVMによる一般物体認識プログラムです。
 
 ## Demo
-元画像 二値化+輪郭検出 切り抜き  
-![Original Image](/examples/frame_0.png)
-![Original Image](/examples/frame_0_contours.png)
+元画像, 二値化+輪郭検出, 切り抜き  
+![Original Image](/examples/frame_0.png) 
+![Original Image](/examples/frame_0_contours.png) 
 ![Original Image](/examples/frame_0_0_cup.png)
 
 SIFTをRGB毎に抽出  
-![Original Image](/examples/frame_0_0_SIFT_B.png)
-![Original Image](/examples/frame_0_0_SIFT_G.png)
+![Original Image](/examples/frame_0_0_SIFT_B.png) 
+![Original Image](/examples/frame_0_0_SIFT_G.png) 
 ![Original Image](/examples/frame_0_0_SIFT_R.png)
 
 ## Requirement

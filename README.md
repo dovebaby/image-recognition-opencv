@@ -17,6 +17,8 @@ SIFTをRGB毎に抽出
 ![Original Image](/examples/frame_0_0_SIFT_R.png)
 
 ## Requirement
+OpenCV 2.4.9  
+Visual Studio 2013 Community  
 
 ## Usage
 main.cpp

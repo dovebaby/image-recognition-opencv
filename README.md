@@ -8,8 +8,9 @@ SIFT・BoF・SVMによる一般物体認識プログラムです。
 ## Demo
 
 ![Original Image](/examples/frame_0.png)
-
-## VS. 
+![Original Image](/examples/frame_0_0_SIFT_B.png)
+![Original Image](/examples/frame_0_0_SIFT_G.png)
+![Original Image](/examples/frame_0_0_SIFT_R.png)
 
 ## Requirement
 

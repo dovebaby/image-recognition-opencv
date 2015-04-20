@@ -21,8 +21,7 @@ main.cpp
   convertImageToBOW(codebookFilename, "./Test", 100, testDataFilename);
   trainClassifier(trainDataFilename, classifierFilename, "train_results.txt");
   testClassifier(testDataFilename, classifierFilename, "test_results.txt");
-```
-```cpp
+
 # 二値化＋輪郭検出で領域分割を行った後各領域を認識
   recognizeImage(codebookFilename, trainDataFilename, classifierFilename, image, false);
 ```

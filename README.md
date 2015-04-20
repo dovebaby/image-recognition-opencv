@@ -6,15 +6,11 @@ SIFT+BoF+SVMによる一般物体認識
 SIFT・BoF・SVMによる一般物体認識プログラムです。
 
 ## Demo
-元画像
+元画像  
 ![Original Image](/examples/frame_0.png)
-二値化
-![Original Image](/examples/frame_0_binary_c6.png)
-輪郭検出
+二値化+輪郭検出  
 ![Original Image](/examples/frame_0_contours.png)
-凸包近似
-![Original Image](/examples/frame_0_contours_convex.png)
-切り抜き
+切り抜き  
 ![Original Image](/examples/frame_0_0_cup.png)
 
 

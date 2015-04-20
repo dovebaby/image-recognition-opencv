@@ -7,6 +7,7 @@ SIFT・BoF・SVMによる一般物体認識プログラムです。
 
 ## Demo
 
+![Original Image](/examples/frame_0.png)
 
 ## VS. 
 
@@ -25,16 +26,3 @@ main.cpp
 # 二値化＋輪郭検出で領域分割を行った後各領域を認識
   recognizeImage(codebookFilename, trainDataFilename, classifierFilename, image, false);
 ```
-## Install
-
-## Contribution
-
-## Licence
-
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
-
-## Author
-
-[tcnksm](https://github.com/tcnksm)
-
-![Original Image](/examples/frame_0.png)

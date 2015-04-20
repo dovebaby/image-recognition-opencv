@@ -24,6 +24,7 @@ SIFT・BoF・SVMによる一般物体認識プログラムです。
 ## Requirement
 1. Visual Studio 2013 Community  
 　学習用画像の読み込み（`#include <filesystem>`を使用）のためVS2012以上が必要  
+
 2. OpenCV 2.4.9  
 　以下のサイトを参考にOpenCVをインストール・VSにパスを通す  
 　[OpenCV を Visual Studio で使う方法](http://physics-station.blogspot.jp/2013/03/opencv-visual-studio.html)  

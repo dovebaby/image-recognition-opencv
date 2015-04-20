@@ -12,6 +12,7 @@ SIFT・BoF・SVMによる一般物体認識プログラムです。
 ![Original Image](/examples/frame_0_0_cup.png)
 
 SIFTをRGB毎に抽出  
+
 |県名|県庁所在地|人口|  
 |----|:----:|----:|  
 |![B](/examples/frame_0_0_SIFT_B.png) |![G](/examples/frame_0_0_SIFT_G.png) |![R](/examples/frame_0_0_SIFT_R.png)|  

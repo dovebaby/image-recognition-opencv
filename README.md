@@ -17,9 +17,6 @@ SIFT・BoF・SVMによる一般物体認識プログラムです。
 |B|G|R|  
 |----|:----:|----|  
 |![B](/examples/frame_0_0_SIFT_B.png) |![G](/examples/frame_0_0_SIFT_G.png) |![R](/examples/frame_0_0_SIFT_R.png)|  
-  
-* 認識例  
-![EX](/examples/frame_1_result.png)  
 
 ## Requirement
 1. Visual Studio 2013 Community  
